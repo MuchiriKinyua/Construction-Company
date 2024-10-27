@@ -1,0 +1,82 @@
+.header {
+    font-size: 30px;
+    color: blue;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+#sidemenu {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#sidemenu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.auth-login {
+    color: blue;
+    margin-left: 1300px;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+.heading {
+    font-size: 50px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
+/* Flexbox container for horizontal layout */
+.image-container {
+    display: flex;
+    gap: 20px; /* Space between images */
+    justify-content: center; /* Center the images */
+    align-items: center; /* Align items vertically centered */
+    padding: 20px 0; /* Optional padding for spacing */
+}
+
+/* General styling for images */
+.image-container div img {
+    height: 300px; /* Same height */
+    width: 500px; /* Same width */
+    border-radius: 10px; /* Curved edges */
+    transition: transform 0.5s; /* Smooth hover transition */
+}
+
+/* Hover effect */
+.image-container div img:hover {
+    transform: scale(1.1); /* Scale up slightly on hover */
+}
+.about-container {
+    max-width: 700px; /* Set max width to match the image width */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Add padding for breathing space */
+    text-align: center; /* Center the text */
+    background-color: #f9f9f9; /* Optional: add a light background for contrast */
+    border-radius: 10px; /* Optional: rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+}
+
+.about-container h2 {
+    font-size: 24px; /* Adjust heading size */
+    color: #333; /* Heading color */
+    margin-bottom: 10px; /* Space below the heading */
+}
+
+.about-container p {
+    font-size: 16px; /* Paragraph size */
+    color: #555; /* Paragraph color */
+    line-height: 1.5; /* Space between lines */
+}
+
