@@ -2,8 +2,6 @@
 
 <img width="1854" height="958" alt="image" src="https://github.com/user-attachments/assets/ee056f01-b68d-4e92-94e8-8a8dcd787eb7" />
 
-This repository contains the landing page for Edward & Liam Construction Company, a business focused on leasing construction machines and offering high-quality construction services.
-
 # About Us
 
 At Edward & Liam Construction Company, we believe construction is more than just bricks and mortar — it’s about building communities, enhancing lifestyles, and providing the right tools for every project.
@@ -27,20 +25,20 @@ Equipment Maintenance and Support
 This repository currently holds a simple Laravel Blade front-end for the company’s landing page.
 
 .
-├── public/
-│   └── images/        # Project images (excavator, construction, house, etc.)
-├── resources/
-│   └── views/
-│       └── welcome.blade.php   # Main landing page
-├── public/css/
-│   └── style.css      # Custom styling
+├── public/ </br>
+│   └── images/        # Project images (excavator, construction, house, etc.) </br>
+├── resources/ </br>
+│   └── views/ </br>
+│       └── welcome.blade.php   # Main landing page </br>
+├── public/css/ </br>
+│   └── style.css      # Custom styling </br>
 └── README.md
 
 # Installation & Setup
 
 Clone the repository:
 
-git clone https://github.com/MuchiriKinyua/Construction-Company.git
+git clone https://github.com/MuchiriKinyua/Construction-Company.git </br>
 cd Construction-Company
 
 
