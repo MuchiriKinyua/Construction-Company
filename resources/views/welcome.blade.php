@@ -24,9 +24,8 @@
                         @auth
                             <li><a href="{{ url('/home') }}">Home</a></li>
                         @else
-                            <li><a href="{{ route('login') }}" class="auth-login">Log In</a></li>
-                            @if (Route::has('register'))
-                                <li><a href="{{ route('register') }}" class="auth-register">Register</a></li>
+                            @if (Route::has('login'))
+                                <li><a href="{{ route('login') }}" class="auth-login">Account</a></li>
                             @endif
                         @endauth
                     @endif
